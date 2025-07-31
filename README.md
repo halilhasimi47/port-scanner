@@ -1,19 +1,18 @@
-Port Scanner
+# Port Scanner
+
 A simple Python port scanner that scans a specified IP address within a given port range and lists open ports.
 
-Requirements
-Python 3.x
+## Requirements
 
-Usage
-Open your terminal or command prompt.
+- Python 3.x
 
-Navigate to the directory containing port_scanner.py.
+## Usage
 
-Run the script:
+1. Open your terminal or command prompt.  
+2. Navigate to the directory containing `port_scanner.py`.  
+3. Run the script:
 
-bash
-Kopyala
-Düzenle
+```bash
 python port_scanner.py
 Enter the requested information:
 
@@ -37,3 +36,16 @@ Warning
 Do not scan systems without proper authorization.
 
 This program uses simple socket connections and does not include advanced features.
+
+yaml
+Kopyala
+Düzenle
+
+---
+
+### 3. Kaydet ve tekrar GitHub’a push et:
+
+```bash
+git add README.md
+git commit -m "Fix README formatting"
+git push
